@@ -1,10 +1,10 @@
-# 🚀 LED Dashboard - Cloud Connected IoT Control System
+# LED Dashboard - Cloud Connected IoT Control System
 
 A full-stack IoT application that enables remote control of an ESP32-connected LED through a web dashboard using MQTT over HiveMQ Cloud.
 
 ---
 
-## 📖 Overview
+##  Overview
 
 This project demonstrates real-world IoT communication using:
 
@@ -18,7 +18,7 @@ Users can control an LED connected to an ESP32 from anywhere through a modern we
 
 ---
 
-## 🏗️ System Architecture
+## System Architecture
 
 ```text
 React Dashboard
@@ -38,20 +38,20 @@ LED
 
 ---
 
-## ✨ Features
+##  Features
 
-- 🌐 Remote LED Control
-- ☁️ HiveMQ Cloud Integration
-- 📡 MQTT Publish/Subscribe Communication
-- 🔒 Secure MQTT over TLS
-- ⚡ Real-Time Device Control
-- 🎨 Responsive React Dashboard
-- 🚀 Cloud Deployment Support
-- 📱 Accessible from Any Device
+- Remote LED Control
+- HiveMQ Cloud Integration
+- MQTT Publish/Subscribe Communication
+- Secure MQTT over TLS
+- Real-Time Device Control
+- Responsive React Dashboard
+- Cloud Deployment Support
+- Accessible from Any Device
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 ### Frontend
 - React.js
@@ -78,7 +78,7 @@ LED
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```text
 LED_Dashboard
@@ -101,7 +101,7 @@ LED_Dashboard
 
 ---
 
-## ⚙️ Installation
+##  Installation
 
 ### Clone Repository
 
@@ -168,7 +168,7 @@ Upload the code using Arduino IDE.
 
 ---
 
-## 🔌 API Endpoints
+### API Endpoints
 
 ### Turn LED ON
 
@@ -190,7 +190,7 @@ GET /device/status
 
 ---
 
-## ☁️ Deployment
+##  Deployment
 
 ### Backend
 
@@ -210,7 +210,7 @@ https://your-vercel-url.vercel.app
 
 ---
 
-## 📸 Demo
+##  Demo
 
 ### Dashboard
 
@@ -218,7 +218,7 @@ https://your-vercel-url.vercel.app
 
 ---
 
-## 🎯 Learning Outcomes
+##  Learning Outcomes
 
 This project helped understand:
 
@@ -233,7 +233,7 @@ This project helped understand:
 
 ---
 
-## 🚀 Future Improvements
+##  Future Improvements
 
 - Live Sensor Monitoring
 - Temperature & Humidity Dashboard
@@ -245,7 +245,7 @@ This project helped understand:
 
 ---
 
-## 👩‍💻 Author
+##  Author
 
 **Charanya Sree M C**
 
