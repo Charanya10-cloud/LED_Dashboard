@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  font-family:'Press Start 2P', cursive;
+}
+
+.app{
+  min-height:100vh;
+  background:linear-gradient(
+    180deg,
+    #fff7fb,
+    #ffe5ec,
+    #f8edff
+  );
+
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  overflow:hidden;
+}
+
+.dashboard{
+
+  width:900px;
+
+  background:white;
+
+  border-radius:30px;
+
+  padding:40px;
+
+  box-shadow:
+  0 10px 30px rgba(0,0,0,.08);
+
+  text-align:center;
+}
+
+h1{
+  color:#c77dff;
+  margin-bottom:40px;
+  font-size:1.2rem;
+}
+
+.character-card{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:20px;
+}
+
+.character{
+  font-size:70px;
+}
+
+.speech{
+  background:#ffc8dd;
+  padding:15px;
+  border-radius:15px;
+  font-size:.7rem;
+}
+
+.led-section{
+  margin-top:40px;
+}
+
+.bulb{
+  font-size:90px;
+  transition:.4s;
+  filter:grayscale(1);
+}
+
+.bulb-on{
+  filter:none;
+
+  animation:glow 2s infinite;
+
+  text-shadow:
+  0 0 20px #ffe066,
+  0 0 40px #ffd60a,
+  0 0 60px #ffd60a;
+}
+
+@keyframes glow{
+
+  0%{
+    transform:scale(1);
+  }
+
+  50%{
+    transform:scale(1.1);
+  }
+
+  100%{
+    transform:scale(1);
+  }
+}
+
+.buttons{
+  margin-top:30px;
+}
+
+button{
+
+  border:none;
+  cursor:pointer;
+
+  margin:10px;
+
+  padding:18px 28px;
+
+  border-radius:20px;
+
+  font-family:'Press Start 2P', cursive;
+
+  transition:.3s;
+}
+
+button:hover{
+  transform:translateY(-3px);
+}
+
+.on-btn{
+  background:#cdb4db;
+  color:white;
+}
+
+.off-btn{
+  background:#ffafcc;
+  color:white;
+}
+
+.status-panel{
+
+  margin-top:40px;
+
+  display:flex;
+
+  justify-content:center;
+
+  gap:40px;
+}
+
+.status{
+  background:#f8f9fa;
+
+  padding:15px 20px;
+
+  border-radius:20px;
+}
+
+.green{
+  display:inline-block;
+
+  width:12px;
+  height:12px;
+
+  background:#80ed99;
+
+  border-radius:50%;
+
+  margin-left:10px;
+
+  box-shadow:
+  0 0 10px #80ed99;
+}
