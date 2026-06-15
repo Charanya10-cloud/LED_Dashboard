@@ -215,7 +215,6 @@ https://your-vercel-url.vercel.app
 ### Dashboard
 
 <img width="1412" height="906" alt="Screenshot 2026-06-16 022450" src="https://github.com/user-attachments/assets/f83b3933-176b-4bcf-865b-554695dd3c3e" />
-">
 
 ---
 
@@ -248,7 +247,7 @@ This project helped understand:
 
 ## 👩‍💻 Author
 
-**Charanya Sree M**
+**Charanya Sree M C**
 
 Electronics and Communication Engineering
 
@@ -257,7 +256,7 @@ Interests:
 - Embedded Systems
 - Artificial Intelligence
 - Full Stack Development
-- Computer Vision
+- Machine learning 
 
 ---
 
