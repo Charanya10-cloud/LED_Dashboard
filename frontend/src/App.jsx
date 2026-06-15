@@ -6,12 +6,12 @@ function App() {
   const [isOn, setIsOn] = useState(false);
 
   const turnOn = async () => {
-    await axios.post("http://localhost:5000/device/on");
+    await axios.post("https://led-dashboard.onrender.com/device/on");
     setIsOn(true);
   };
 
   const turnOff = async () => {
-    await axios.post("http://localhost:5000/device/off");
+    await axios.post("https://led-dashboard.onrender.com/device/off");
     setIsOn(false);
   };
 
