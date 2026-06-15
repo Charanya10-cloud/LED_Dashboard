@@ -214,7 +214,7 @@ https://your-vercel-url.vercel.app
 
 ### Dashboard
 
-<img width="800" alt="Dashboard Screenshot" src="<img width="1412" height="906" alt="Screenshot 2026-06-16 022450" src="https://github.com/user-attachments/assets/f83b3933-176b-4bcf-865b-554695dd3c3e" />
+<img width="1412" height="906" alt="Screenshot 2026-06-16 022450" src="https://github.com/user-attachments/assets/f83b3933-176b-4bcf-865b-554695dd3c3e" />
 ">
 
 ---
